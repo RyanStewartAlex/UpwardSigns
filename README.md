@@ -10,3 +10,11 @@ It can be used for an elevator system, a ladder system, or a generic transportat
 #Why It's Better to Other Similar Plugins or Ladders
 
 My plugin uses sound effects and text messages to make transport more fun. It's almost like the scripted version of a trap-door ladder.  it also has permission nodes to create and use the signs.
+
+
+#Permissions
+
+1.upwardsigns.create
+..*Allows the use to create the sign using "[Up]". If a player tries to make an UpwardSigns sign without the permission, it doesn't allow for it to be active and does not return an error message.
+1.*upwardsigns.use 
+..*Allows for users to use UpwardSigns signs.
