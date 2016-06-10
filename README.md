@@ -14,8 +14,8 @@ My plugin uses sound effects and text messages to make transport more fun. It's 
 
 #Permissions
 
-1.upwardsigns.create
-..*Allows the use to create the sign using "[Up]". If a player tries to make an UpwardSigns sign without the permission, it doesn't allow for it to be active and does not return an error message.
+1. upwardsigns.create
+..* Allows the use to create the sign using "[Up]". If a player tries to make an UpwardSigns sign without the permission, it doesn't allow for it to be active and does not return an error message.
 
-1.*upwardsigns.use 
-..*Allows for users to use UpwardSigns signs.
+1. upwardsigns.use 
+..* Allows for users to use UpwardSigns signs.
