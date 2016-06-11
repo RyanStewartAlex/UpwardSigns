@@ -27,7 +27,7 @@ public class ListenerClass implements Listener{
 	@EventHandler
 	public void onSignChange(SignChangeEvent e){
 		if (e.getPlayer().hasPermission("upwardsigns.create") && e.getLine(0).equalsIgnoreCase("[up]")){
-			e.setLine(0, "งb[Up]");
+			e.setLine(0, "ยง1[Up]");
 		}
 	}
 	
@@ -36,7 +36,7 @@ public class ListenerClass implements Listener{
 		if (e.getAction().equals(Action.RIGHT_CLICK_BLOCK) && e.getClickedBlock().getState() instanceof Sign){
 			Sign sign = (Sign) e.getClickedBlock().getState();
 			
-			if (sign.getLine(0).equalsIgnoreCase("งb[Up]")){
+			if (sign.getLine(0).equalsIgnoreCase("ยง1[Up]")){
 				if (e.getPlayer().hasPermission("upwardsigns.use")){
 					Location pLoc = e.getPlayer().getLocation();
 					int y = pLoc.getBlockY();
